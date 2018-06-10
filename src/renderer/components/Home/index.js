@@ -4,7 +4,7 @@ export default {
   components: {Web},
   data: () =>{
     return {
-      enterurl: "",
+      enterurl: "https://www.nodegg.com",
     }
   },
   methods: {
