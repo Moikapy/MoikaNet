@@ -6,7 +6,7 @@
         v-model="enterurl" v-on:keyup.enter="submitUrl">
       </div>
       <div id="moikaBrowse">
-        <Web :url="enterurl"></Web>
+        <Web :url="outputurl"></Web>
       </div>
     </div>
   </main>
