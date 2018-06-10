@@ -1,10 +1,15 @@
 <template>
   <main>
-    <searchbar></searchbar>
-    <div id="wrapper">
-      <webview id="MoikaNet" class="w-100 h-100 p-0 m-0" src="https://www.github.com/"></webview>
+    <div id="wrapper" class="d-flex">
+      <div id="moikanetUrl" class="">
+        <input id="inputUrl" type="url" name="moikanetUrl" class="m-0 p-3 w-100"  aria-describedby="moikanetUrl" placeholder="Browse The Web"
+        v-model="enterurl" v-on:keyup.enter="submitUrl">
+      </div>
+      <div id="moikaBrowse">
+        <Web :url="enterurl"></Web>
+      </div>
     </div>
   </main>
 </template>
-<script scoped src="./index.js"/>
+<script src="./index.js"/>
 <style src="./moikanetStyle.css"/>

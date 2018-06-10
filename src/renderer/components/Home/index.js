@@ -1,10 +1,15 @@
-import Searchbar from "../Searchbar";
+import Web from "@/components/Web/Web";
 export default {
   name: 'home',
-  components: {Searchbar},
+  components: {Web},
+  data: () =>{
+    return {
+      enterurl: "",
+    }
+  },
   methods: {
-    open (link) {
-      this.$electron.shell.openExternal(link)
+    submitUrl: function() {
+      this.enterurl;
     }
   }
 }
