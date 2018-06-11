@@ -1,32 +1,21 @@
-# MoikaNet
+# moikanet
 
-> A  Webbrowser Using VueJS + Electron + Blockchain
+> The Front Cover of Moika Net
 
->Status: Development
-
-#### Build Setup
+## Build Setup
 
 ``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:9080
-npm start
+# serve with hot reload at localhost:8080
+npm run dev
 
-# build electron application for production
+# build for production with minification
 npm run build
 
-
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
-> ToDo
-- Introduce Basic Single Page Web Browser. -done
-- Extend Functionality / Fix of URL Bar and Web Browser
-- Add Return and Forward Buttons
-- Add Local Storage of History and Bookmarks, etc.
-- Add Styling to Browser
-- Add Ability to add Plugins/Extensions
-- Add blockchain and blockchain storage
-- Allow users to create Accounts/Wallets
-- Allow Sharing of websites and list of most trending webpages.
-- Add more to ToDo list
----
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
