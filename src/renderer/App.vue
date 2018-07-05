@@ -24,7 +24,13 @@
   #app{
     background-color: #600591;
   }
-
+  .no-border{
+    border: none;
+  }
+  .bg-white{
+    background-color: #fff;
+  }
+  
   .bg-black{
     background-color: #000;
   }
